@@ -240,7 +240,7 @@ const Markup = () => {
           ))}
         </Route>
       </Routes>
-      <Setting />
+      {/* <Setting /> */}
       <ScrollToTop />
     </>
   );

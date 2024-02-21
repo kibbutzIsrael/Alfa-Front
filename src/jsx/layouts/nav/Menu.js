@@ -17,6 +17,14 @@ export const MenuList = [
     classsChange: "mm-collapse",
     iconStyle: <i className="fas fa-file-alt"></i>,
   },
+
+  {
+    mainTitle: "צור קשר ",
+    title: "form-wizard",
+    to: "form-wizard",
+    classsChange: "mm-collapse",
+    iconStyle: <i className="fas fa-file-alt"></i>,
+  },
   //Dashboard
   {
     mainTitle: "דף הבית",
