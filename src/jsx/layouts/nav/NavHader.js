@@ -21,13 +21,15 @@ const NavHader = () => {
     useContext(ThemeContext);
   return (
     <div className="nav-header">
-      <Link to="/dashboard" className="brand-logo">
-        {/* {background.value === "dark" || navigationHader !== "color_1" ? ( */}
-        <Fragment>
-          <img src={logo} alt="" />
-        </Fragment>
-        {/* )} */}
-      </Link>
+      <div className="brand-logo">
+        <Link to="/dashboard" className="brand-logo">
+          {/* {background.value === "dark" || navigationHader !== "color_1" ? ( */}
+          <Fragment>
+            <img src={logo} alt="" />
+          </Fragment>
+          {/* )} */}
+        </Link>
+      </div>
 
       <div
         className="nav-control"

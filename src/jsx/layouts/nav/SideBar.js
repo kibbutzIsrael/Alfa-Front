@@ -213,7 +213,7 @@ const SideBar = () => {
             </div>
           </div>
         </div> */}
-        {/* <div className="copyright">
+        <div className="copyright">
           <p className="text-center">
             <strong>Travl Hotel Admin Dashboard</strong> © {d.getFullYear()} All
             Rights Reserved
@@ -223,7 +223,7 @@ const SideBar = () => {
             <span className="heart" onClick={() => heartBlast()}></span> by
             DexignLab
           </p>
-        </div> */}
+        </div>
       </PerfectScrollbar>
     </div>
   );

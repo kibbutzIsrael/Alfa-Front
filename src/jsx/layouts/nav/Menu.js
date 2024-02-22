@@ -1,13 +1,20 @@
 export const MenuList = [
   //Forms
 
+  {
+    mainTitle: "צור קשר ",
+    title: "form-wizard",
+    to: "form-wizard",
+    classsChange: "mm-collapse",
+    iconStyle: <i className="fas fa-solid fa-envelope"></i>,
+  },
   //גלריה
   {
     mainTitle: "גלריה",
     title: "גלריה",
     classsChange: "mm-collapse",
     to: "uc-lightgallery",
-    iconStyle: <i className="fas fa-clone"></i>,
+    iconStyle: <i className="fas fa-regular fa-image"></i>,
   },
 
   {
@@ -15,16 +22,9 @@ export const MenuList = [
     title: "form-wizard",
     to: "form-wizard",
     classsChange: "mm-collapse",
-    iconStyle: <i className="fas fa-file-alt"></i>,
+    iconStyle: <i className="fas fa-regular fa-clipboard"></i>,
   },
 
-  {
-    mainTitle: "צור קשר ",
-    title: "form-wizard",
-    to: "form-wizard",
-    classsChange: "mm-collapse",
-    iconStyle: <i className="fas fa-file-alt"></i>,
-  },
   //Dashboard
   {
     mainTitle: "דף הבית",
